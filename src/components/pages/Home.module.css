@@ -1,0 +1,44 @@
+@import '../css/variables.css';
+
+.home_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    animation: fade .3s ease
+}
+
+@keyframes fade {
+  from {
+      opacity: .4;
+      transform: translateY(10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.home_container h1 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.home_container h1 span {
+    color: var(--primary-color);
+    padding: 0 .2em;
+    background-color: var(--bg-color);
+}
+
+.home_container p {
+    margin-bottom: 1.5em;
+    color: var(--text-color-secondary);
+}
+
+.home_container img {
+    width: 350px;
+    margin: 2em 0;
+    user-select: none;
+}

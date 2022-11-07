@@ -1,0 +1,15 @@
+@import '../css/variables.css';
+
+.btn {
+    background-color: var(--bg-color);
+    color: var(--text-color-primary);
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    color: var(--primary-color);
+}
