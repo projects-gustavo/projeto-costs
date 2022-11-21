@@ -28,7 +28,6 @@ function App() {
       </Container>
       <Footer />
     </Router>
-    // Testando
   );
 }
 
